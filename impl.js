@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const BASE = "http://pets.dev-apis.com/";
+const BASE = "https://pet-api.azurewebsites.net/";
 
 const success = ({ data }) => data;
 const fail = err => {
